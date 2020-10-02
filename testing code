@@ -34,15 +34,7 @@ img.gif {
 	}
 
 	&.playing {
-		/* Only show the 'stop' button on hover */
-		&:after {
-			opacity: 0;
-			transition: opacity 0.25s ease-in-out;
-			border-left: 20px solid #FF9900;
-			border-right: 20px solid #FF9900;
-			width: 50px;
-			height: 50px;
-      box-sizing: border-box;
+	g: border-box;
 		}
 		&:hover:after {
 			opacity: 1;
